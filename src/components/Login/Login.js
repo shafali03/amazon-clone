@@ -11,10 +11,14 @@ function Login() {
   const signIn = e => {
     e.preventDefault()
 
-
+    auth.signInWithEmailAndPassword(email, password)
+      .then(auth => {
+        history.push('/')
+      })
+      .catch(error => alert(error.message))
   }
 
-  // Create a new user with email and password
+  // Created a new user with email and password
   const register = e => {
     e.preventDefault()
 
