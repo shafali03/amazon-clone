@@ -9,7 +9,7 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://res.cloudinary.com/shafali/image/upload/v1599639483/amazon-banner-prime_mzf91h.jpg" alt="banner" />
+          src="https://res.cloudinary.com/shafali/image/upload/v1599908846/new_ft_hero_vanv2._CB430308772__1_t6rh7l.jpg" alt="banner" />
 
         <div className="home__row">
           <Product
