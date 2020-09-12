@@ -47,7 +47,7 @@ function Home() {
           />
           <Product
             id="123412349"
-            title='Coco Mademoiselle Intense Spray A woody and ambery oriental fragrance with a full-bodied character: sensual, deep and addictive.'
+            title='Coco Mademoiselle Intense Spray A woody and ambery oriental fragrance'
             price={114.99}
             image={"https://res.cloudinary.com/shafali/image/upload/v1599648436/chanel-coco_pv73fc.jpg"}
             rating={5}
