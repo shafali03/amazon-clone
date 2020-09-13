@@ -11,3 +11,8 @@ yarn add react-currency-format
 yarn add firebase
 
 ```
+
+
+```
+yarn add stripe @stripe/stripe-js @stripe/react-stripe-js
+```
