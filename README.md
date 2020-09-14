@@ -15,4 +15,5 @@ yarn add firebase
 
 ```
 yarn add stripe @stripe/stripe-js @stripe/react-stripe-js
+yarn add axios
 ```
