@@ -39,15 +39,15 @@ function Header() {
           </div>
         </Link>
 
-
-        <div className="header__option">
-          <span
-            className="header__optionLinkOne">Returns
+        <Link to='/orders'>
+          <div className="header__option">
+            <span
+              className="header__optionLinkOne">Returns
           </span>
-          <span
-            className="header__optionLinkTwo"> & Orders</span>
-        </div>
-
+            <span
+              className="header__optionLinkTwo"> & Orders</span>
+          </div>
+        </Link>
 
         <div className="header__option">
           <span
