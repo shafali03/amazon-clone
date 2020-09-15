@@ -37,7 +37,6 @@ function Payment() {
       getClientSecret()
     }, [basket])
 
-  console.log('THE SECRET is >>>>>>>>>>', clientSecret)
 
 
 

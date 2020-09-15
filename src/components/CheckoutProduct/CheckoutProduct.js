@@ -17,7 +17,7 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
   }
 
   return (
-    <div className='checkoutProduct'>
+    <div className='checkoutProduct' key={id}>
       <img className='checkoutProduct__image' src={image} alt="cart-items-images" />
 
       <div className='checkoutProduct__info'>
@@ -30,12 +30,11 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <p>⭐️</p>
+              <span role="img"><p>⭐️</p></span>
             ))}
         </div>
         {!hideButton && (
           <button onClick={removeFromBasket}>Remove from Basket</button>
-
         )}
       </div>
     </div>

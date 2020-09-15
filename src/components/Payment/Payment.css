@@ -41,13 +41,12 @@
 .payment__details > form > div > button {
   background: #f0c14b;
   border-radius: 2px;
-  width: 100%;
+  width: 60%;
   height: 30px;
   border: 1px solid;
   font-weight: bolder;
   margin-top: 10px;
-  cursor: pointer
-  ;
+  cursor: pointer;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
 }
