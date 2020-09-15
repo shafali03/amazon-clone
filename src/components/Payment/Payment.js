@@ -37,7 +37,6 @@ function Payment() {
       getClientSecret()
     }, [basket])
 
-  console.log('THE SECRET is >>>>>>>>>>', clientSecret)
 
 
 
@@ -52,7 +51,6 @@ function Payment() {
       }
     }).then(({ paymentIntent }) => {
       // payment confirmation
-
       db
         .collection('users')
         .doc(user?.uid)
