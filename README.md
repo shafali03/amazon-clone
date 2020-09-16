@@ -1,25 +1,25 @@
 # Amazon clone
 
+https://clone-84608.web.app
+
+#### Packages Installed
 ```
 sudo npm install -g firebase-tools
 yarn add @material-ui/core
 yarn add @material-ui/icons
 yarn add react-currency-format
 yarn add moment
-```
-
-```
 yarn add firebase
-
 ```
 
+
+#### Stripe setup
 ```
 yarn add stripe @stripe/stripe-js @stripe/react-stripe-js
 yarn add axios
 ```
 
-Setting up Cloud function
-
+#### Setting up Cloud function
 
 ```
 firebase init
@@ -29,12 +29,27 @@ Do you want to use ESLint to catch probable bugs and enforce style? Y
 Do you want to install dependencies with npm now? y
 ```
 
-### backend
+### Backend
 
-run the server firebase emulators:start
+#### run serverless framework
+```
+firebase emulators:start
+```
+
+#### Packages Installed for backend
 
 ```
 npm i express   
 npm i stripe    
+```
 
+#### Steps to deploy project front end
+```
+yarn build 
+firebase deploy --only hosting               
+```
+
+#### Step to deploy backend
+```
+firebase deploy --only functions
 ```
