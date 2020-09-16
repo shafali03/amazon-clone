@@ -1,6 +1,12 @@
 # Amazon clone
 
-https://clone-84608.web.app
+
+[Amazon clone](https://clone-84608.web.app)
+
+An Amazon clone allows users to register or sign in for authentication. The user can select items and click on the basket icon to display all the goods specified. The user can remove any item if they don't want to proceed to checkout. At checkout,  the user can continue for payment or remove the item from the cart. To process the order with demo card details, the user must enter 16 digit card. <br><br>
+4242 4242 4242 4242  <br>
+MM/YY   CVC   ZIP <br>09/22     123     45678 <br><br>Once the order has been placed and processed, the users can view the order history with an order number.
+<br>
 
 #### Packages Installed
 ```
@@ -53,3 +59,9 @@ firebase deploy --only hosting
 ```
 firebase deploy --only functions
 ```
+
+### Tech stack used
+* React Hooks
+* Firebase
+* Cloud Functions
+* Stripe
