@@ -33,9 +33,10 @@ function Orders() {
       <h1>Your Orders</h1>
 
       <div className="orders__order">
-        {orders?.map(order => (
-          <Order order={order} />
-        ))}
+        {orders && orders
+          .map(order => (
+            <Order order={order} />
+          ))}
       </div>
 
     </div>

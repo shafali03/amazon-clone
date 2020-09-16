@@ -33,7 +33,7 @@ function Product({ title, image, price, rating, id }) {
             .fill()
             .map
             ((_, i) => (
-              <p>⭐️</p>
+              <p key={i} role='img' aria-label='star-icon'>⭐️</p>
             ))}
         </div>
       </div>

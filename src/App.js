@@ -18,12 +18,9 @@ function App() {
   const [{ }, dispatch] = useStateValue()
 
   useEffect(() => {
-
     auth.onAuthStateChanged(authUser => {
-
       if (authUser) {
         // the user just logged in // the user was logged in 
-
         dispatch({
           type: 'SET_USER',
           user: authUser
