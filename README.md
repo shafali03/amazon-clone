@@ -8,6 +8,9 @@ An Amazon clone allows users to register or sign in for authentication. The user
 MM/YY   CVC   ZIP <br>09/22     123     45678 <br><br>Once the order has been placed and processed, the users can view the order history with an order number.
 <br>
 
+<img src="https://res.cloudinary.com/shafali/image/upload/v1601030069/amazon-1000_e4xpk2.gif" width='800px' height='auto'>
+
+
 #### Packages Installed
 ```
 sudo npm install -g firebase-tools
