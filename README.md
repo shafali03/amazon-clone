@@ -10,6 +10,11 @@ MM/YY   CVC   ZIP <br>09/22     123     45678 <br><br>Once the order h
 
 <img src="https://res.cloudinary.com/shafali/image/upload/v1601030069/amazon-1000_e4xpk2.gif" width='800px' height='auto'>
 
+## Features
+
+* User Authentication
+* Full featured shopping cart
+* Stripe / credit card integration
 
 #### Packages Installed
 ```
